@@ -1,0 +1,30 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Dizimiz --> [22,27,16,2,18,6] 
+[2,27,16,22,18,6] (en küçük elemanını bulup en baştaki ile yer değiştirdik)
+[2,6,16,22,18,27]
+[2,6,16,18,22,27]
+
+n(n+1) / 2 = (n^2 + n) / 2 'den Big O-notation = O(n^2) olur.
+ Son dizide 18 ortada olduğu için "Average Case" kapsamına girer.
+
+ ! ! ! EĞİTİMDE INSERTION SORT BAŞLIĞI ALTINDA SELECTION SORT GÖSTERİLMİŞTİR. ! ! !
+ 
+ Eğer ödevde istenen belirtildiği gibi Insertion Sort ise çözüm şöyle olacaktır:
+ Sıralamaya ilk sayıdan başlıyor ve pass geçiyoruz yani hiçbir şey yapmıyoruz.
+ 22 | 27 16 2 18 6 ( "|" Bu işaretin solundaki sayılar sıralı, sağındakiler sıralanmamış olacak. Her adımda işareti kaydırıyoruz.)
+ 22 27 | 16 2 18 6
+ 16 22 27 | 2 18 6
+ 2 16 22 27 | 18 6
+ 2 16 18 22 27 | 6
+ 2 6 16 18 22 27
+ 
+ Dizinin son hali [2,6,16,18,22,27]
+ Yine n(n+1) / 2 = (n^2 + n) / 2 'den Big O-notation = O(n^2) olur.
+ Son dizide 18 ortada olduğu için "Average Case" kapsamına girer.
+ 
+ 
