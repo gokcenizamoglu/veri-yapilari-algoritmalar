@@ -1,3 +1,4 @@
+---SORU 1--- 
 [22,27,16,2,18,6] -> Insertion Sort
 
 Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
@@ -26,5 +27,16 @@ n(n+1) / 2 = (n^2 + n) / 2 'den Big O-notation = O(n^2) olur.
  Dizinin son hali [2,6,16,18,22,27]
  Yine n(n+1) / 2 = (n^2 + n) / 2 'den Big O-notation = O(n^2) olur.
  Son dizide 18 ortada olduğu için "Average Case" kapsamına girer.
+ 
+ ---SORU 2---
+ [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+ 
+ 1. ADIM: [2,3,5,8,7,9,4,15,6]
+ 2. ADIM: [2,3,5,8,7,9,4,15,6] (Bir sonraki en küçük sayı üçtür ve yerinde sabit kalır.)
+ 3. ADIM: [2,3,4,8,7,9,5,15,6]
+ 4. ADIM: [2,3,4,5,7,9,8,15,6]
+ .
+ .
+ .
  
  
